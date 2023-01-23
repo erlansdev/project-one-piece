@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/imagens/favicon_onepiece-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <title>One Piece Red - 2022</title>
+  </head>
+  <body>
+    <div class="fundo-video">
+      <video class="video" autoplay loop muted>
+        <source src="./src/video/onepieceredvideo.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <header class="cabecalho">
+      <a href="#">
+        <img
+          class="logo"
+          src="./src/imagens/logo-nova.png"
+          alt="logoonepiece"
+        />
+      </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Detalhes</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="informacoes">
+        <img
+          class="imagem-titulo"
+          src="./src/imagens/one-piece.jpg"
+          alt="onepieceimage"
+        />
+        <p class="descricao">
+          Em ONE PIECE FILM RED todos conhecerão Uta, a cantora mais amada do
+          planeta, cuja voz foi descrita como "de outro mundo". Ela é conhecida
+          por esconder sua própria identidade ao se apresentar. Agora, pela
+          primeira vez, Uta se revelará ao mundo em um show ao vivo. Com a
+          Marinha assistindo de perto, o local se enche de fãs de Uta -
+          incluindo piratas animados e os Chapéus de Palha liderados por Luffy,
+          que vieram para curtir sua performance - todos aguardam ansiosamente a
+          voz que o mundo inteiro estava esperando. A história começa com a
+          chocante revelação de que ela é a enigmática filha de Shanks.
+          Classificação indicativa 12 anos, contém violência, drogas lícitas e
+          linguagem imprópria.
+        </p>
+        <button class="botao">Veja o trailer</button>
+      </div>
+      <img
+        class="onepiece"
+        src="./src/imagens/luffy-image-png.png"
+        alt="onepieceimage2"
+      />
+      <div class="modal">
+        <div class="conteudo-modal">
+          <span class="fechar-modal">X</span>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JvqcaQJgr-A"
+            title="Trailer Oficial"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write;
+          encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
